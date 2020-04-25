@@ -1,0 +1,75 @@
+.butcancel{
+height: 50px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  background-color: black;
+
+}
+
+.butsave{
+  background-color: rgb(8, 109, 8);
+  height: 50px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+input{
+width: 100%;
+  height: 40px;
+  padding: 8px 2px;
+  background-color: #F2F2F2;
+  border: none;
+  border-bottom: 2px solid #F2F2F2;}
+
+  .error{
+    color: crimson;
+    margin-top: 20px;
+    text-align: center;
+  }
+.btns{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;}
+
+  .Form{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  @media all and (max-width: 580px) {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  font-size: 1.2rem;
+  }
+  .texar{
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    padding: 8px 2px;
+    border-bottom: 2px solid #F2F2F2;}
+    .imgcont{
+    height: 300px;
+    background-color: #EEE;
+    margin-bottom: 10px;}
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .form{
+      display: block;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 50px;
+      font-size: 1.2rem;
+    }
+    .row{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Pragati Narrow';
+  font-weight: 400;
+  src: local('Pragati Narrow'), url(./assets/fonts/PragatiNarrow-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Pragati Narrow';
+  font-weight: 700;
+  src: local('Pragati Narrow'), url(./assets/fonts/PragatiNarrow-Bold.ttf) format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 15px 20px 15px;
+  
+}
+
+@media all and (min-width: 800px) and (max-width: 976px) {
+  .container {
+    padding-top: 180px;
+  }
+}
+
+input, textarea, select, button {
+  font-family: 'Pragati Narrow';
+}
